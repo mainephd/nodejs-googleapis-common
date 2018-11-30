@@ -45,8 +45,8 @@
     "typescript": "~3.1.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "google-auth-library": "^2.0.0",
+    "axios": "git+https://github.com/axios/axios.git#75c8b3f146aaa8a71f7dca0263686fb1799f8f31",
+    "google-auth-library": "git+https://github.com/mainephd/google-auth-library-nodejs.git#439321f9500c0773216d494ef93a12496658d190",
     "pify": "^4.0.0",
     "qs": "^6.5.2",
     "url-template": "^2.0.8",

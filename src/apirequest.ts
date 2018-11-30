@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import {AxiosPromise} from 'axios';
+import {AxiosPromise, Method} from 'axios';
 import {DefaultTransporter, OAuth2Client} from 'google-auth-library';
 import {BodyResponseCallback} from 'google-auth-library/build/src/transporters';
 import * as qs from 'qs';
@@ -222,7 +222,9 @@ async function createAPIRequestAsync<T>(parameters: APIRequestParams) {
   }
 
   options.headers = headers;
+  // options.method = options.method as Method;s
   options.params = params;
+
   // We need to set a default content size, or the max defaults
   // to 10MB.  Setting to 2GB by default.
   // https://github.com/google/google-api-nodejs-client/issues/991
