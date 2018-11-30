@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "axios": "git+https://github.com/axios/axios.git#75c8b3f146aaa8a71f7dca0263686fb1799f8f31",
-    "google-auth-library": "git+https://github.com/mainephd/google-auth-library-nodejs.git#7599c669021dca8c68bce147af11a90853311b02",
+    "google-auth-library": "git+https://github.com/mainephd/google-auth-library-nodejs.git#99fcc6b0d502110812a93c27fb5d805e396262d2",
     "pify": "^4.0.0",
     "qs": "^6.5.2",
     "url-template": "^2.0.8",
